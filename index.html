@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio site for Jasraj Jassar, robotics technologist and automation builder." />
+    <title>Jasraj Jassar - Robotics Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" data-animate="fade">
+      <a href="#home" class="logo" aria-label="Jasraj Jassar home">
+        <span>JJ</span>
+        <div class="logo-dot"></div>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#home">Intro</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certs &amp; Awards</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle color theme">
+        <span class="sun"></span>
+        <span class="moon"></span>
+      </button>
+    </header>
+
+    <main id="home" class="page">
+      <section class="hero" data-animate="rise">
+        <div class="hero-content">
+          <p class="eyebrow">Robotics technologist · Calgary</p>
+          <h1>Building reliable automation cells for factories and field deployments.</h1>
+          <p class="lede">
+            Hi, I’m <strong>Jasraj Jassar</strong>—currently a Robotics Technologist at Promise Robotics. I design, program, and
+            optimize robotic manufacturing systems end to end, pairing ROS/PLC software with practical commissioning habits so
+            production teams can trust every cycle.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="files/Jas_Resume.pdf" target="_blank" rel="noopener">
+              Download Resume
+            </a>
+            <a class="btn ghost" href="mailto:jasrajjassar775@gmail.com">
+              Email Me
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="portrait-card" data-animate="rise">
+            <img src="assets/images/profile.jpg" alt="Jasraj Jassar" />
+            <div class="portrait-meta">
+              <p>Field-tested</p>
+              <p>Harsh env. ready</p>
+            </div>
+            <ul class="orbit-tags">
+              <li>Edge AI</li>
+              <li>ROS 2</li>
+              <li>CAD</li>
+              <li>PLC</li>
+            </ul>
+          </div>
+          <div class="hero-media" data-animate="rise">
+            <figure class="hero-media__item">
+              <img src="assets/gallery/PromiseRobotics/ROBOTS-FloorTruss.JPG-scaled.jpg" alt="Promise Robotics floor truss robots" />
+              <figcaption>Promise Robotics · floor truss automation</figcaption>
+            </figure>
+            <figure class="hero-media__item">
+              <img src="assets/gallery/ABBrobotics/FoodHandling robotics arm.jpg" alt="ABB food handling arm" />
+              <figcaption>ABB robotics · food handling cell</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="media-strip" aria-label="Recent field captures">
+        <div class="media-strip__track">
+          <div class="media-strip__group">
+            <img src="assets/gallery/PromiseRobotics/ROBOTS-FloorTruss.JPG-scaled.jpg" alt="Promise Robotics floor truss line" />
+            <img src="assets/gallery/TCT/Fanuc arm with turbine part.jpg" alt="Fanuc arm servicing turbine part" />
+            <img src="assets/gallery/Automation Circuit/1680384787638.jpg" alt="Automation circuit wiring" />
+            <img src="assets/gallery/PromiseRobotics/images.jpg" alt="Promise robotics shop floor" />
+            <img src="assets/gallery/Automation Circuit/MPS Stations.jpg" alt="Mechatronics production stations" />
+            <img src="assets/gallery/Medical Prostheic hand design/Patterns_Overview.jpg" alt="Prosthetic hand CAD study" />
+          </div>
+          <div class="media-strip__group" aria-hidden="true">
+            <img src="assets/gallery/PromiseRobotics/ROBOTS-FloorTruss.JPG-scaled.jpg" alt="" />
+            <img src="assets/gallery/TCT/Fanuc arm with turbine part.jpg" alt="" />
+            <img src="assets/gallery/Automation Circuit/1680384787638.jpg" alt="" />
+            <img src="assets/gallery/PromiseRobotics/images.jpg" alt="" />
+            <img src="assets/gallery/Automation Circuit/MPS Stations.jpg" alt="" />
+            <img src="assets/gallery/Medical Prostheic hand design/Patterns_Overview.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="section-heading" data-animate="fade">
+          <p class="eyebrow">Experience</p>
+          <h2>Experience</h2>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card" data-animate="rise">
+            <div class="experience-card__photo" style="background-image: url('assets/gallery/PromiseRobotics/1753495750606.jpg');"></div>
+            <div class="experience-card__body">
+              <p class="timeline-meta">Jul 2025 &mdash; Aug 2025 · Calgary, Canada</p>
+              <h3>Robotics Technologist · Promise Robotics</h3>
+              <p>Design, develop, and evaluate robotic manufacturing systems for modular home construction.</p>
+              <ul>
+                <li>Prototype + optimize control and path-planning for multi-robot lines</li>
+                <li>Debug electrical/software issues during design, test, and maintenance</li>
+                <li>Pair documentation with on-floor coaching so updates stick</li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-card" data-animate="rise">
+            <div class="experience-card__photo" style="background-image: url('assets/gallery/TCT/Fanuc arm with turbine part.jpg');"></div>
+            <div class="experience-card__body">
+              <p class="timeline-meta">May 2024 &mdash; Jul 2025 · Airdrie, Alberta</p>
+              <h3>Robot Programmer · TransCanada Turbines</h3>
+              <p>Programmed and optimized FANUC cells for thermal spray, shot peening, and waterjet stripping.</p>
+              <ul>
+                <li>Tuned robot paths + safety interlocks for aerospace tooling</li>
+                <li>Integrated new automation with legacy processes alongside operators</li>
+                <li>Authored support docs so maintenance crews can troubleshoot quickly</li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-card" data-animate="rise">
+            <div class="experience-card__photo" style="background-image: url('assets/gallery/ABBrobotics/1714870653652.jpg');"></div>
+            <div class="experience-card__body">
+              <p class="timeline-meta">Jan 2023 &mdash; Apr 2024 · Calgary, Canada</p>
+              <h3>Robotics &amp; Automation Specialist · E-Pro Bot</h3>
+              <p>Shipped software and integrations that made service robots more useful in real spaces.</p>
+              <ul>
+                <li>Built Override, an app that streamlines delivery robot controls and UX</li>
+                <li>Used ROS to optimize navigation flows and intuitive task handoffs</li>
+                <li>Integrated robots with nursing call systems alongside PX Solutions</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading" data-animate="fade">
+          <p class="eyebrow">Recent builds</p>
+          <h2>Projects</h2>
+          <p>Selected work spanning robotics R&amp;D, product design, and systems integration.</p>
+        </div>
+        <div class="project-deck">
+          <article class="project-card" data-animate="rise">
+            <img class="project-card__media" src="assets/gallery/AGV capstone ppt/AGV presentation Capstone .jpg" alt="AGV capstone render" />
+            <header>
+              <p class="project-meta">Applied R&amp;D · Autonomous mobility</p>
+              <h3>Autonomous Guided Vehicle (Capstone)</h3>
+            </header>
+            <p>Led the team that engineered a ROS2-powered AGV—covering design, CAD, sourcing, assembly, and controls.</p>
+            <dl>
+              <div>
+                <dt>Impact</dt>
+                <dd>PLCnext fully sponsored the R&amp;D and hardware</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Systems lead · Python, ROS2, PlcNext, BPC</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="project-card" data-animate="rise">
+            <img class="project-card__media" src="assets/gallery/PromiseRobotics/promise-robotics.jpg" alt="Override app workspace" />
+            <header>
+              <p class="project-meta">Product · Service automation</p>
+              <h3>Override delivery robot app</h3>
+            </header>
+            <p>Designed Override—an app that gives operators intuitive control over delivery robots while keeping ROS flows intact.</p>
+            <dl>
+              <div>
+                <dt>Impact</dt>
+                <dd>Faster dispatch + fewer user errors</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Product design · ROS integration · UX testing</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="project-card" data-animate="rise">
+            <img class="project-card__media" src="assets/gallery/Automation Circuit/Allenbradly PlC photo.jpg" alt="Nursing call integration wiring" />
+            <header>
+              <p class="project-meta">Healthcare · Systems integration</p>
+              <h3>Nursing call system bridge</h3>
+            </header>
+            <p>Connected service robots with existing nursing call infrastructure in partnership with PX Solutions.</p>
+            <dl>
+              <div>
+                <dt>Impact</dt>
+                <dd>Robots respond to call-button workflows without new hardware</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Systems integration · API design · Deployment</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="certs" id="certs">
+        <div class="section-heading" data-animate="fade">
+          <p class="eyebrow">Certs &amp; Awards</p>
+          <h2>Proof &amp; recognition</h2>
+          <p>Go-to documents and standout accolades.</p>
+        </div>
+        <div class="certs-grid">
+          <article class="doc-card" data-animate="rise">
+            <div class="doc-card__preview" style="background-image: url('assets/gallery/PromiseRobotics/images.jpg');"></div>
+            <div>
+              <h3>Resume · Aug 2025</h3>
+              <p>Highlights Promise Robotics, TransCanada Turbines, and E-Pro Bot experience.</p>
+            </div>
+            <a class="btn ghost" href="files/Jas_Resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+          </article>
+          <article class="award-card" data-animate="rise">
+            <div>
+              <h3>Mechanical Engineering Technology — Automation</h3>
+              <p>Diploma, Southern Alberta Institute of Technology (SAIT).</p>
+            </div>
+            <span>2024</span>
+          </article>
+          <article class="doc-card" data-animate="rise">
+            <div class="doc-card__preview" style="background-image: url('assets/gallery/CTF SADT FIRST PRIZE/1763553640284.jpg');"></div>
+            <div>
+              <h3>Diploma · SAIT</h3>
+              <p>Mechanical Engineering Technology &mdash; Automation diploma transcript.</p>
+            </div>
+            <a class="btn ghost" href="assets/docs/Diploma.pdf" target="_blank" rel="noopener">View Diploma</a>
+          </article>
+          <article class="award-card" data-animate="rise">
+            <div>
+              <h3>Siemens S7 Advanced PLC Certification</h3>
+              <p>Structured Text + safety controller accreditation with distinction.</p>
+            </div>
+            <span>2023</span>
+          </article>
+          <article class="doc-card" data-animate="rise">
+            <div class="doc-card__preview" style="background-image: url('assets/gallery/AGV capstone ppt/AGV presentation Capstone .jpg');"></div>
+            <div>
+              <h3>AGV Capstone Deck</h3>
+              <p>End-to-end breakdown of the PLCnext-backed autonomous guided vehicle project.</p>
+            </div>
+            <a class="btn ghost" href="assets/docs/AGV_Presentation.pptx" target="_blank" rel="noopener">Download Deck</a>
+          </article>
+          <article class="award-card" data-animate="rise">
+            <div>
+              <h3>PLCnext Sponsored AGV Research</h3>
+              <p>PLCnext underwrote the full AGV build—hardware, manufacturing, and equipment.</p>
+            </div>
+            <span>2023</span>
+          </article>
+          <article class="award-card" data-animate="rise">
+            <div>
+              <h3>FIRST Robotics Mentor of the Year</h3>
+              <p>Recognized for coaching controls and safety documentation.</p>
+            </div>
+            <span>2022</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-content" data-animate="fade">
+          <p class="eyebrow">Let’s collaborate</p>
+          <h2>Need a robotics co-pilot?</h2>
+          <p>Send the opportunity, constraints, and timeline. I’ll reply within two business days with a lightweight action plan.</p>
+          <div class="contact-info">
+            <a href="mailto:jasrajjassar775@gmail.com">jasrajjassar775@gmail.com</a>
+            <a href="tel:+18252887755">+1 (825) 288-7755</a>
+            <a href="https://www.linkedin.com/in/jassar/" target="_blank" rel="noopener">LinkedIn · /jassar</a>
+            <a href="https://github.com/Jasraj-Jassar" target="_blank" rel="noopener">GitHub · @Jasraj-Jassar</a>
+          </div>
+          <form class="contact-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              <span>Project snapshot</span>
+              <textarea name="message" placeholder="What problem are we solving?" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Share the brief</button>
+          </form>
+        </div>
+        <div class="map" aria-label="Calgary, Alberta">
+          <iframe
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43768.425043182265!2d-114.12023347032719!3d51.04430855264601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170032f5d10f1%3A0x88235d7a71f1581e!2sCalgary%2C%20AB%2C%20Canada!5e0!3m2!1sen!2sus!4v1712100000000!5m2!1sen!2sus"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Jasraj Jassar &mdash; Robotics Technologist</p>
+      <p>Built with intention, curiosity, and a few dozen espresso shots.</p>
+    </footer>
+  </body>
+</html>
