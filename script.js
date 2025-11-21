@@ -64,7 +64,8 @@ if (contactForm) {
     event.preventDefault();
     const formData = new FormData(contactForm);
     const nameEntry = formData.get('name');
-    const displayName = nameEntry && String(nameEntry).trim().length ? String(nameEntry).trim() : 'there';
+    const displayName =
+      nameEntry && String(nameEntry).trim().length ? String(nameEntry).trim() : 'there';
     status.textContent = `Thanks ${displayName}! I'll follow up within two business days.`;
     status.classList.add('success');
     contactForm.reset();
@@ -75,3 +76,4 @@ const yearEl = document.getElementById('year');
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
+
